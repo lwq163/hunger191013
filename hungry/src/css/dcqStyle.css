@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body,#root{
+    width: 100%;
+    height: 100%;
+}
+.lwqwrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.lwqwrap,.lwqsectionmain,.lwqsection{
+    height: 100%;
+}
+.dcqEvaluateDiv{
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+.dcqEvaluateDiv .topScore{
+    padding: 18px 0;
+    width: 100%;
+    height: 110px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    background-color: #fff;
+}
+
+.scoreleft{
+    width: 38%;
+    height: 100%;
+    border-right: 1px solid #eee;
+    text-align: center;
+}
+.scoreleft .allScoreNum{
+    font-size: 30px;
+    color: rgb(255, 153, 0);
+}
+
+.scoreleft .allScoreText{
+    font-size: 14px;
+    padding: 5px 0;
+    color: rgb(7, 17, 27);
+}
+
+.scoreleft .allScoreMsg{
+    font-size: 12px;
+    color: #aaa;
+}
+
+.scoreright{
+    padding: 0 30px;
+}
+
+.scoreright .scoreTips{
+    font-size: 16px;
+    padding-top: 8px;
+    display: flex;
+}
+
+.scoreTips img{
+    width: 18px;
+    height: 18px;
+}
+
+.scoreTips span{
+    padding: 0 15px;
+}
+.cloGrey{
+    font-size: 15px;
+    color: #888;
+}
+.cloOrange{
+    color:rgb(255, 153, 0);
+}
+
+.evaluateContent{
+    height: 100%;
+    background-color: #fff;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+.evaluateBtns{
+    padding: 10px 20px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.evaluateBtns button{
+    outline: none;
+    padding: 8px 12px;
+    border: none;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.evaluateBtns button span{
+    font-size: 8px;
+}
+
+.evaluateBtns .cloAll{
+    background-color: rgb(0, 160, 220);
+    color: #fff;
+}
+.evaluateBtns .cloAll span{
+    padding-left: 4px;
+}
+
+.cloYes{
+    background-color: rgb(177, 225, 243);
+}
+.evaluateTips{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #777;
+    padding: 5px 20px;
+    border-bottom: 1px solid #ccc;
+}
+.evaluateContext{
+    height:100%;
+    overflow-y: auto;
+}
+.evaluateContextList{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.evaluateContextList li{
+    padding: 20px 0;
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+.evaluateContextList .evaluateContextListImage img{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+
+.evaluateContextList .evaluateContextListImage{
+    padding-right: 10px;
+}
+.evaluateContextListMsg{
+    width: 100%;
+}
+.evaluateContextListMsgTips{
+    width: 100%;
+    font-size: 14px;
+}
+
+.evaluateContextListMsgTips p span{
+    padding-right: 10px;
+    color: #555;
+    font-size: 12px;
+}
+
+.evaluateContextListMsgTips p{
+    display: flex;
+    padding: 2px 0;
+}
+.starNums{
+    height: 30px;
+    display: flex;
+}
+.starNums img{
+    width: 20px;
+    height: 20px;
+}
+.evaluateContextListMsgTags{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 3px 0;
+    margin-top: 10px;
+}
+.evaluateContextListMsgTags span{
+    font-size: 12px;
+    padding: 2px 4px;
+    border: 1px solid #ccc;
+    margin: 3px 4px;
+}
+.evaluateContextListMsgTips_times{
+    display: flex;
+    justify-content: space-between;
+}

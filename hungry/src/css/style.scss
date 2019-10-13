@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    header {
+        width: 100%;
+        height: 266px;
+        background: rgba(7, 17, 27, .5);
+        .lwqtop {
+            width: 100%;
+            height: 210px;
+            display: flex;
+            box-sizing: border-box;
+            padding: 48px;
+            .lwqtopleft {
+                width: 128px;
+                height: 128px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 4px;
+                }
+            }
+            .lwqtopright {
+                margin-left: 32px;
+                p {
+                    .pinpai {
+                        background: red;
+                        display: inline-block;
+                        color: #fff;
+                        text-align: center;
+                        line-height: 36px;
+                        height: 36px;
+                        width: 60px;
+                        margin-right: 10px;
+                    }
+                }
+                p {
+                    .jian {
+                        height: 30px;
+                        width: 30px;
+                        background: #fff;
+                        display: inline-block;
+                        text-align: center;
+                        line-height: 30px;
+                        color: red;
+                    }
+                }
+            }
+        }
+        .lwqbottom {
+            width: 100%;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            background: rgba(7, 17, 27, .2);
+            font-size: 20px;
+            .gonggao {
+                background: #fff;
+                display: block;
+                width: 54px;
+                height: 26px;
+                text-align: center;
+                line-height: 26px;
+                margin-left: 26px;
+            }
+            .lwqinfo {
+                width: 650px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin-left: 8px;
+            }
+        }
+    }
+    section {
+        flex: 1;
+        overflow-y: auto;
+        background: #f3f5f7;
+        .lwqsectiontop {
+            height: 80px;
+            width: 100%;
+            background: #fff;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            a {
+                font-size: 28px;
+                color: rgb(77, 85, 93);
+                line-height: 28px;
+                text-decoration: none;
+            }
+        }
+        .lwqsectionmain {
+            .lwqwrap {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                .lwqleft {
+                    width: 260px;
+                    height: 100%;
+                    text-align: center;
+                    line-height: 65px;
+                }
+                .lwqright {
+                    // width: 100%;
+                    // height: 100%;
+                    flex: 1;
+                    overflow-y: auto;
+                    div {
+                        h3 {
+                            line-height: 60px;
+                        }
+                        dl {
+                            display: flex;
+                            margin-bottom: 20px;
+                            background: #fff;
+                            box-sizing: border-box;
+                            padding: 36px;
+                            dt {
+                                width: 260px;
+                                height: 160px;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                            dd {
+                                width: 100%;
+                                height: 100%;
+                                margin-left: 20px;
+                                line-height: 50px;
+                                .lwqshop {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    .lwqprice {
+                                        width: 60px;
+                                        display: flex;
+                                        justify-content: space-around;
+                                        align-items: center;
+                                        .lwqpricered {
+                                            font-size: 28px;
+                                            color: rgb(147, 153, 159);
+                                            font-weight: normal;
+                                        }
+                                    }
+                                    .lwbtn {
+                                        width: 160px;
+                                        span {
+                                            display: inline-block;
+                                            width: 48px;
+                                            text-align: center;
+                                        }
+                                        button {
+                                            border-radius: 50%;
+                                            background: #acf;
+                                            width: 40px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        height: 125px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #141d27;
+        color: rgba(255, 255, 255, .4);
+        .lwqfooterleft {
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            .lwqshopicon {
+                border-radius: 50%;
+                width: 116px;
+                height: 116px;
+                color: #fff;
+                background: rgba(255, 255, 255, .4);
+                text-align: center;
+                line-height: 116px;
+            }
+            .lwqshopprice {
+                font-size: 32px;
+                color: #fff;
+            }
+        }
+        .lwqfootercenter {
+            text-align: center;
+        }
+        .lwqfooterright {
+            width: 210px;
+            text-align: center;
+            span {
+                font-size: 24px;
+                color: rgba(255, 255, 255, .4);
+            }
+        }
+    }
+}
